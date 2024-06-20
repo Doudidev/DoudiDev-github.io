@@ -32,6 +32,7 @@ header {
 
 .logo {
     height: 60px; /* Logo size */
+    border-radius: 30px;
 }
 
 .header-title {

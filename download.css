@@ -32,6 +32,7 @@ header {
 
 .logo {
     height: 60px; /* Logo size */
+    border-radius: 30px;
 }
 
 .header-title {
@@ -108,7 +109,8 @@ ul li {
     margin-bottom: 10px;
 }
 
-ul li a {
+.dbtn {
+    margin-top: 10px;
     display: inline-block;
     padding: 10px 20px;
     background-color: #ff6347;
@@ -118,8 +120,14 @@ ul li a {
     transition: background-color 0.3s;
 }
 
-ul li a:hover {
-    background-color: #ff4500;
+.home {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.home:hover {
+   color: #ff6347;
 }
 
 footer {
@@ -129,6 +137,19 @@ footer {
     color: white;
 }
 
-.dbtn {
-    margin-top: 10px;
+.icns {
+    width: 32px;
+    height: 32px;
+    border: solid;
+    border-radius: 15px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-bottom: 1px;
+}
+
+.icn {
+    width: 32px;
+    height: 32px;
 }

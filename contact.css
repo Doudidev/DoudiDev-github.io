@@ -32,6 +32,7 @@ header {
 
 .logo {
     height: 60px; /* Logo size */
+    border-radius: 30px;
 }
 
 .header-title {
@@ -185,5 +186,19 @@ footer {
 a {
     font-family: Helvetica, sans-serif;
     text-decoration: none;
-    color: blue;
+    color: black;
+}
+
+.icns {
+    width: 32px;
+    height: 32px;
+    vertical-align: middle;
+}
+
+.f {
+    margin-left: 20px;
+}
+
+.g {
+    margin-left: 20px;
 }
